@@ -11,7 +11,7 @@ const allowedOrigins = process.env.ALLOWED_ORIGINS
   ? process.env.ALLOWED_ORIGINS.split(",")
   : [
       "http://localhost:5173", // Local development
-      "https://wahret-zmen-app-frontend.vercel.app", // Deployed frontend
+      "https://wahret-zmen-app.vercel.app", // Deployed frontend
     ];
 
 // Enable CORS with allowed origins
